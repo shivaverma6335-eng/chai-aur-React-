@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDom from "react-dom/client";
-
+import Chai from './chai.jsx';
 import App from './App.jsx'
 
 /*Alag file se import karane ki jagah uhi pe function/component bna skte h */
@@ -32,7 +32,7 @@ const reactElement = React.createElement(
   {href:'https://google.com',target:'_blank'}, // props/attributes
   'click me to visit google',
   // iske baad var inject krte h 
-  anotherUser  // evaluated expressionf
+  anotherUser  // evaluated expression
 )
 
 ReactDom.createRoot(document.getElementById('root')).render(
@@ -47,4 +47,5 @@ ReactDom.createRoot(document.getElementById('root')).render(
     // <App />
 
     reactElement
+    // <Chai />
 )

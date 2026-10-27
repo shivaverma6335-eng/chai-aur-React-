@@ -17,7 +17,7 @@ function App() {
       </>
         
        /*
-       {username} ye h evaulated expreesion evaluatye krke js jo milta h wo h {} iske andr
+       {username} ye h evaulated expreesion evaluate krke js jo milta h wo h {} iske andr
         */ 
 
   )
